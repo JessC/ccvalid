@@ -3,9 +3,8 @@
 <head>
   <title>ccvalid</title>
 
-<link rel="stylesheet" type="text/css" href="css/application.css">
-<!-- Include the above scripts for interactive tree -->
-<!-- ***SCRIPTS HAD TO BE ADDED BELOW THE HTML*** -->
+  <link rel="stylesheet" type="text/css" href="css/application.css">
+  <!-- Include the above scripts for interactive tree -->
 </head>
 <body>
   <header>
@@ -15,21 +14,15 @@
 
   <div>
 
+    <form method="POST" action="" onsubmit="return is_valid(this)">  
+      Credit Card Number<br>
+      <input type="text" name="ccn" placeholder="enter number">
+      <br><br>
+      <input class="check" type="submit" value="Submit">
+    </form>
 
-<form method="POST" action="/javascripts/src/code/" onsubmit="return false;">  <!-- <action="code.js"> -->
-Credit Card Number<br>
-<input type="text" name="firstname" placeholder="enter number">
-
-<br><br>
-<input type="submit" value="Submit">
-</form>
+  </div>
 
 
-
-    </div>
-
-  <script src="javascripts/vendor/jquery-2.1.1.min.js"></script>
-  <script src="javascripts/src/code.js"></script>
-  <script src="javascripts/src/view.js"></script>
-  </body>
-  </html>
+</body>
+</html>

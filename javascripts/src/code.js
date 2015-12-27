@@ -1,4 +1,4 @@
-var ccNumber = "4342-5620-9946-2994"
+//var ccNumber = "4342-5620-9946-2994"
 
 function is_valid() {
 	console.log(ccNumber); //show original cc number
@@ -22,12 +22,15 @@ if (i % 2) {                   //if index even, then * value by 2
 	sum += num;
 }console.log(num);
 }
-console.log(sum % 10 === 0); 
+console.log("HEY!!!!!")
+alert(sum % 10 === 0); 
 return sum % 10 === 0;
 };
 
 
-is_valid();
+
+
+//is_valid();
 
 // Reverse the digits:
 //   61789372994
