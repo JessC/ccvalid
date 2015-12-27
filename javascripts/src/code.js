@@ -1,7 +1,7 @@
 //var ccNumber = "4342-5620-9946-2994"
 
-function is_valid() {
-	console.log(ccNumber); //show original cc number
+function isValid(ccNumber) {
+	//console.log(ccNumber); //show original cc number
 	ccNumber = ccNumber.replace(/[^\d]/g, ''); //remove non-numbers
 	//alert(ccNumber.length != 19 ? 'must be 19 numbers' : 'awesome');
 var i, l, ccNumRev;            //set variables
@@ -23,14 +23,18 @@ if (i % 2) {                   //if index even, then * value by 2
 }console.log(num);
 }
 console.log("HEY!!!!!")
-alert(sum % 10 === 0); 
-return sum % 10 === 0;
+if (sum % 10 === 0) {
+	alert("This is a valid credit card number")
+} else {
+	alert("Sorry, not a valid number")
+}
+// return sum % 10 === 0;
 };
 
 
 
 
-//is_valid();
+//isValid();
 
 // Reverse the digits:
 //   61789372994

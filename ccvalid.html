@@ -4,6 +4,7 @@
   <title>ccvalid</title>
 
   <link rel="stylesheet" type="text/css" href="css/application.css">
+
   <!-- Include the above scripts for interactive tree -->
 </head>
 <body>
@@ -14,15 +15,17 @@
 
   <div>
 
-    <form method="POST" action="" onsubmit="return is_valid(this)">  
+    <form>  
       Credit Card Number<br>
-      <input type="text" name="ccn" placeholder="enter number">
+      <input id="formValue" type="text" name="ccn" placeholder="enter number">
       <br><br>
-      <input class="check" type="submit" value="Submit">
+      <input id="check" type="button" value="Submit">
     </form>
 
   </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="javascripts/src/code.js"></script>
+  <script src="javascripts/src/view.js"></script>
 
 </body>
 </html>
