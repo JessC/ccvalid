@@ -22,9 +22,17 @@ function isValid(ccNumber) {
 				sum += num;
 			}//console.log(num); //checks if evens were multiplied
 		}
-		if (sum % 10 === 0) {
+		if (sum % 10 === 0 && ccNumber[0] === "4") {
+			alert("This is a valid Visa number")
+		  } else if (sum % 10 === 0 && ccNumber[0] === "5") {
+			alert("This is a valid Mastercard number")
+			} else if (sum % 10 === 0 && ccNumber[0] === "3") {
+			alert("This is a valid American Express number")
+			} else if (sum % 10 === 0 && ccNumber[0] === "6") {
+			alert("This is a valid Discover Card number")
+		  } else if (sum % 10 === 0 {
 			alert("This is a valid credit card number")
-		} else {
+		  } else {
 			alert("Sorry, not a valid number")
 		}
 // return sum % 10 === 0;
