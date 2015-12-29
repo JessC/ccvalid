@@ -30,7 +30,7 @@ function isValid(ccNumber) {
 			alert("This is a valid American Express number")
 			} else if (sum % 10 === 0 && ccNumber[0] === "6") {
 			alert("This is a valid Discover Card number")
-		  } else if (sum % 10 === 0 {
+		  } else if (sum % 10 === 0) {
 			alert("This is a valid credit card number")
 		  } else {
 			alert("Sorry, not a valid number")

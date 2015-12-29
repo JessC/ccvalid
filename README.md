@@ -1,5 +1,5 @@
 # ccvalid
-[12/27](currently working but still in progress, will be available very soon at: instograph.elasticbeanstalk.com)
+[12/27](currently working but still in progress, can be tested at: instograph.elasticbeanstalk.com)
 
 Checks to see if a number is valid credit card number
 
