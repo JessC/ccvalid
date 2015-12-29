@@ -1,5 +1,3 @@
-//var ccNumber = "4342-5620-9946-2994"
-
 function isValid(ccNumber) {
 	//console.log(ccNumber);   //show original cc number
 	ccNumber = ccNumber.replace(/[^\d]/g, ''); //remove non-numbers
@@ -38,8 +36,8 @@ function isValid(ccNumber) {
 // return sum % 10 === 0;
 };
 
-
 //isValid();
+
 
 //THIS IS HOW IT WORKS
 // Reverse the digits:
