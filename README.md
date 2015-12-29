@@ -1,9 +1,6 @@
 # ccvalid
-<<<<<<< HEAD
-[12/27](currently working but still in progress, can be tested at: instograph.elasticbeanstalk.com)
-=======
+
 [12/27 currently working but still in progress, will be available very soon at: instograph.elasticbeanstalk.com]
->>>>>>> 297d697f96de026d1574196bc8956953ecf24457
 
 Checks to see if a number is valid credit card number
 
