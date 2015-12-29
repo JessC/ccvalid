@@ -12,25 +12,25 @@ function isValid(ccNumber) {
 		if (i % 2) {             //if index even, then * value by 2
 			num *= 2;					           
 			if (num < 10) {				 //adds numbers together if less than 10
-			sum += num;						 //if more than 10...add number and subtract
-			} else {							 //so individual digits are added ex:
+			sum += num;			       //if more than 10...add number and subtract
+			} else {				       //so individual digits are added ex:
 				sum += num - 9;			 //3+12 should be -> 3+1+2
-				} 									 //3+12-9= is the same as 3+1+2=6
+				} 				           //3+12-9= is the same as 3+1+2=6
 			} else {
 				sum += num;
 			}//console.log(num); //checks if evens were multiplied
 		}
 		if (sum % 10 === 0 && ccNumber[0] === "4") {
 			alert("This is a valid Visa number")
-		  } else if (sum % 10 === 0 && ccNumber[0] === "5") {
+		} else if (sum % 10 === 0 && ccNumber[0] === "5") {
 			alert("This is a valid Mastercard number")
-			} else if (sum % 10 === 0 && ccNumber[0] === "3") {
+		} else if (sum % 10 === 0 && ccNumber[0] === "3") {
 			alert("This is a valid American Express number")
-			} else if (sum % 10 === 0 && ccNumber[0] === "6") {
+		} else if (sum % 10 === 0 && ccNumber[0] === "6") {
 			alert("This is a valid Discover Card number")
-		  } else if (sum % 10 === 0) {
+		} else if (sum % 10 === 0) {
 			alert("This is a valid credit card number")
-		  } else {
+		} else {
 			alert("Sorry, not a valid number")
 		}
 // return sum % 10 === 0;
